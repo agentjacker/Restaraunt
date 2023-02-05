@@ -2,7 +2,13 @@ print("Thank you for coming in today!!. This is Jackers Restaurant")
 
 name  = input ("what is your name? ")
 
-print ("Hello " + name + ", its great having you here what would you like to order\n" )
+if name == "hacker":
+  print("You are not welcome here")
+  exit()
+
+else: 
+  print ("Hello " + name + ", its great having you here what would you like to order\n" )
+  
 
 print ("- We have a variable of options\n" + "steaks\n" + "fries\n" )
 
