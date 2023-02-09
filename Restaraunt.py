@@ -52,8 +52,14 @@ else:
 #asks for the quantity user wants
 quantity = input("I see you got friends, for how many people? ")
 
+#if user wants ketchup they can order tbat too
+ketchup = input ("would you guys like some ketchup with your order? ")
+if ketchup == "yes":
+  ketchup = 2
+
+
 #multiplies the price by quantity
-total = price * int(quantity)
+total = (price * int(quantity)) + (int(ketchup) * int(quantity) )
 
 print("Thank you your total is : $" + str(total))
 
