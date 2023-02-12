@@ -9,7 +9,7 @@ supplies = ["spoon", "fork", "frying pan", "pot", "oven", "dishwasher"]
 restraunt_list = ["spoon" , "fork" , 30 , 22.9 , True]
 
 #me = restraunt_utensils[0]
-#when you use a -in a list it basically starts from the back and counts.. so the last thing in the list would be given the value -1 second to last would be -2
+#when you use a - in a list it basically starts from the back and counts.. so the last thing in the list would be given the value -1 second to last would be -2
 #you = restraunt_utensils[-2]
 #print (me)
 #print (you)
