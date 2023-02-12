@@ -5,10 +5,11 @@ print("Thank you for coming in today!!. This is Jackers Restaurant")
 name  = input ("what is your name? ")
 
 #an if statement that if the users name is hacker the user is asked if they are evil if yes the user is not welcomed into the restraunt else if they are not named hacker are allowed to go in. also if tou choocse no when asked if you are evil you can proceed
-if name == "hacker":
-  evil_status = input ("Are you evil?")
-  if evil_status == "yes":
-    print("You are not welcome here")
+if name == "hacker" or name == "james" or name == "loki":
+  evil_status = input ("Are you evil? ")
+  good_deeds = int(input("how many good deeds have you done today? "))
+  if evil_status == "yes" and good_deeds < 4:
+    print("You are not welcome here " + name + " bye!!")
     exit()
    
   else: 
