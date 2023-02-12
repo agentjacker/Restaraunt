@@ -3,13 +3,18 @@
 
 #print (restraunt_utensils)
 
-restraunt_utensils = ["spoon", "fork", "frying pan", "pot", "oven", "dishwasher"]
+supplies = ["spoon", "fork", "frying pan", "pot", "oven", "dishwasher"]
 
 #i just assigned values to the list 
 restraunt_list = ["spoon" , "fork" , 30 , 22.9 , True]
 
-#its called indexing or ordering in a list
-me = restraunt_utensils[0]
-you = restraunt_utensils[3]
-print (me)
-print (you)
+#me = restraunt_utensils[0]
+#when you use a -in a list it basically starts from the back and counts.. so the last thing in the list would be given the value -1 second to last would be -2
+#you = restraunt_utensils[-2]
+#print (me)
+#print (you)
+
+#append is a method to add things to our list
+supplies.append("toilet paper")
+supplies.append("bidet")
+print (supplies)
