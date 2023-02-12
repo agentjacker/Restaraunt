@@ -7,3 +7,13 @@ and
 or
 if not
 != (comparison operator) means not equals
+
+
+#types of data
+
+string which is anything inbetween " <string in here> "
+integer is a whole number and is denoted by 90 91 basically whole numbers
+float is decimal numbers so 80.1 90.1 99.99
+boolean is true or false
+
+a list is anything with these types of brackets [] and a list can contain any type of data like strings integer float and boolean is shown here ["string" , 40 , 20.1 , True] 
