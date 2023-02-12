@@ -20,3 +20,7 @@ a list is anything with these types of brackets [] and a list can contain any ty
 
 computers start counting from zero
 so when you want to reference something in your list it starts from zero not 1
+
+#python methods
+append
+extend
