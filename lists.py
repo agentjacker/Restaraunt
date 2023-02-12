@@ -15,6 +15,12 @@ restraunt_list = ["spoon" , "fork" , 30 , 22.9 , True]
 #print (you)
 
 #append is a method to add things to our list
-supplies.append("toilet paper")
-supplies.append("bidet")
+#supplies.append("toilet paper")
+#supplies.append("bidet")
+
+#extend allows you to add more than one item to a list it needs  to be ([data])
+#supplies.extend(["toilet paper" , "bidet"])
+
+supplies = supplies + ["toilet paper", "bidet"]
+
 print (supplies)
