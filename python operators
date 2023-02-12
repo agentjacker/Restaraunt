@@ -17,3 +17,6 @@ float is decimal numbers so 80.1 90.1 99.99
 boolean is true or false
 
 a list is anything with these types of brackets [] and a list can contain any type of data like strings integer float and boolean is shown here ["string" , 40 , 20.1 , True] 
+
+computers start counting from zero
+so when you want to reference something in your list it starts from zero not 1
