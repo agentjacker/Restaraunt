@@ -27,3 +27,4 @@ extend allows you to add multiple objects to your list (["object"])
 insert (allows you to insert a data at any part of your list either at the top or bottom ) basically (0, "object")
 clear this clears every thing in a list
 remove this removes a specific object in a list .remove("remove")
+pop is used to removes multiple objects from a list .pop(0) you use integers and indexes
