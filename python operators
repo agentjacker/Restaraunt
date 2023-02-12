@@ -25,3 +25,5 @@ so when you want to reference something in your list it starts from zero not 1
 append allows you to add a single object to your list ("object")
 extend allows you to add multiple objects to your list (["object"])
 insert (allows you to insert a data at any part of your list either at the top or bottom ) basically (0, "object")
+clear this clears every thing in a list
+remove this removes a specific object in a list .remove("remove")
