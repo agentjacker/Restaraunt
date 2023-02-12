@@ -1,4 +1,4 @@
-#booleans
+#booleans all about true or false
 print ("hello, welcome to agentjacker restraunt!!")
 
 name = input ("what is your name?")
